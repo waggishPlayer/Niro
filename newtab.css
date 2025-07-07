@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Modern CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Root theme variables */
+:root {
+  /* Primary Colors */
+  --primary: #667eea;
+  --primary-dark: #5a67d8;
+  --primary-light: #7c3aed;
+  --accent: #f093fb;
+  --accent-secondary: #f9ca24;
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --gradient-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  /* Backgrounds */
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --card-bg-solid: #ffffff;
+  --card-bg-glass: rgba(255, 255, 255, 0.25);
+  /* Borders & Shadows */
+  --border-radius: 20px;
+  --border-radius-sm: 12px;
+  --border-radius-lg: 28px;
+  --card-border: rgba(102, 126, 234, 0.18);
+  --shadow-sm: 0 2px 10px rgba(102, 126, 234, 0.1);
+  --shadow-md: 0 8px 25px rgba(102, 126, 234, 0.15);
+  --shadow-lg: 0 20px 40px rgba(102, 126, 234, 0.2);
+  /* Typography */
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+  --text-white: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gradient-background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    --card-bg: rgba(45, 55, 72, 0.95);
+    --card-bg-solid: #2d3748;
+    --card-bg-glass: rgba(45, 55, 72, 0.25);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --text-primary: #f7fafc;
+    --text-secondary: #e2e8f0;
+  }
+}
+
+/* Base Styles */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+#wallpaper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+/* Center container for all sections */
+.newtab-center-container {
+  position: static;
+  z-index: 2;
+  width: 100vw;
+  display: block;
+  padding-top: 0;
+}
+
+#tasksSection {
+  position: fixed;
+  top: 50%;
+  right: 5vw;
+  left: auto;
+  transform: translateY(-50%);
+  width: 420px;
+  max-width: 90vw;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  z-index: 5;
+  gap: 20px;
+  height: auto;
+  min-height: unset;
+  padding: 1.5rem 2.5rem;
+  box-sizing: border-box;
+}
+#todoTabSection, #taskSection {
+  width: 100%;
+  box-sizing: border-box;
+  position: static !important;
+  float: none !important;
+  display: block;
+}
+#taskSection {
+  border: none !important;
+  box-shadow: none !important;
+  font-family: inherit;
+  font-size: 1.05rem;
+  color: var(--text-primary);
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+#taskSection .task-title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: var(--accent-secondary);
+  margin-bottom: 0.5em;
+  letter-spacing: 0.5px;
+  text-transform: none;
+  text-align: center;
+}
+#taskSection .task-text {
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--text-primary);
+  line-height: 1.5;
+  margin: 0;
+  padding: 0 0 0 1.5em;
+  text-align: left;
+  position: relative;
+}
+#taskSection .task-text::before {
+  content: '\2022';
+  color: var(--primary);
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+}
+
+/* Unified section card style */
+.newtab-section {
+  background: var(--card-bg) !important;
+  color: var(--text-primary);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-sm);
+  border: 1.5px solid var(--card-border);
+  font-family: 'Poppins', 'Inter', sans-serif;
+  padding: 1.5rem 2.5rem;
+  min-width: 320px;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#taskSection, #quoteOverlay, #todoTabSection {
+  background: unset !important;
+}
+
+#taskSection .task-title, #quoteOverlay .quote-text {
+  color: var(--accent-secondary);
+  letter-spacing: 1px;
+}
+
+/* Button Styles (for all buttons in new tab) */
+button, .todo-tab-btn, .tab-complete-btn {
+  background: linear-gradient(90deg, rgba(102,126,234,0.18) 0%, rgba(118,75,162,0.18) 100%);
+  color: var(--text-white);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  padding: 5px 14px;
+  font-size: 0.92em;
+  font-weight: 500;
+  box-shadow: none;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.18s, box-shadow 0.18s;
+  outline: none;
+  margin: 0 0 0 16px;
+  letter-spacing: 0.3px;
+  opacity: 0.92;
+  vertical-align: middle;
+}
+button:hover, .todo-tab-btn:hover, .tab-complete-btn:hover, button:focus, .todo-tab-btn:focus, .tab-complete-btn:focus {
+  background: linear-gradient(90deg, rgba(102,126,234,0.28) 0%, rgba(118,75,162,0.28) 100%);
+  color: var(--primary);
+  opacity: 1;
+}
+button:active, .todo-tab-btn:active {
+  background: var(--primary-dark);
+  transform: scale(0.98);
+}
+
+/* To-Do Empty State */
+.todo-tab-empty {
+  color: #bbb;
+  font-style: italic;
+  padding: 0.5em 0;
+}
+
+/* Quote Overlay - simplified */
+#quoteOverlay {
+  position: fixed !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: 0 !important;
+  transform: translateX(-50%) !important;
+  background: rgba(30, 30, 60, 0.65) !important;
+  color: var(--text-white) !important;
+  border-radius: var(--border-radius-sm) !important;
+  box-shadow: var(--shadow-sm) !important;
+  padding: 1.2rem 2.2rem 1.4rem 2.2rem !important;
+  width: auto !important;
+  max-width: 90vw !important;
+  min-width: 0 !important;
+  text-align: center;
+  z-index: 10;
+  pointer-events: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.5rem !important;
+}
+#quoteOverlay .quote-text {
+  display: block;
+  margin-bottom: 0;
+  font-style: italic;
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 300;
+  white-space: normal;
+  overflow-x: visible;
+  text-overflow: unset;
+  max-width: 100%;
+  word-break: normal;
+}
+
+/* Todo Tab Section - simplified */
+#todoTabSection {
+  position: static !important;
+  left: unset !important;
+  right: unset !important;
+  top: unset !important;
+  bottom: unset !important;
+  transform: none !important;
+  max-width: unset !important;
+  min-width: unset !important;
+  width: unset !important;
+  margin: unset !important;
+  box-shadow: unset !important;
+  border-radius: unset !important;
+  padding: unset !important;
+  z-index: unset !important;
+  background: unset !important;
+  color: unset !important;
+  text-align: unset !important;
+  font-size: 1.05rem;
+  animation: none;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #taskSection {
+    padding: 1.5rem 2rem;
+    font-size: 1.1rem;
+    bottom: 100px;
+    width: 95%;
+  }
+  
+  #taskSection .task-title {
+    font-size: 1em;
+    margin-bottom: 0.75rem;
+  }
+  
+  #taskSection .task-text {
+    font-size: 1em;
+  }
+  
+  #quoteOverlay {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    width: 95%;
+  }
+  
+  #todoTabSection {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    width: 95%;
+    top: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  #taskSection {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    bottom: 80px;
+  }
+  
+  #quoteOverlay {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  #todoTabSection {
+    padding: 0.75rem 1rem;
+    font-size: 0.9rem;
+    top: 20px;
+  }
+}
+
+/* Accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.todo-tab-list, .todo-group, .todo-group ul, .todo-group li, .todo-tab-item, .todo-tab-list h3, .todo-group > b, .todo-tab-empty {
+  text-align: left !important;
+}
+
+.todo-group > b {
+  display: block;
+  width: 100%;
+  text-align: right !important;
+  margin-left: 0;
+  margin-right: 0.2em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  font-size: 1.08em;
+  color: var(--primary-dark);
+}
+
+.todo-tab-item {
+  position: relative;
+  padding-left: 2em;
+  list-style: none;
+  margin-bottom: 0.7em;
+}
+
+.todo-group ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.todo-tab-item::before {
+  content: '\2022';
+  color: var(--primary);
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+}

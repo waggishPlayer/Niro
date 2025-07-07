@@ -1,0 +1,70 @@
+{
+    "profiles": {
+      "Software Engineer": {
+        "questions": [
+          "How many hours do you code per day?",
+          "How often do you take breaks while coding?",
+          "Rate your current project stress level (1–10):",
+          "Do you experience eye strain or headaches?",
+          "How often do you socialize outside of work?"
+        ],
+        "options": {
+          "5": ["Daily", "Weekly", "Monthly", "Rarely"]
+        },
+        "traits": ["focused", "tech-savvy", "introverted", "needs-eye-relief"]
+      },
+      "Teacher": {
+        "questions": [
+          "How many students do you teach daily?",
+          "How do you feel about your workload?",
+          "Rate your job satisfaction (1–10):",
+          "How well do you separate work and personal life?",
+          "How much support do you receive from administration?"
+        ],
+        "options": {
+          "5": ["Strong", "Moderate", "Low", "None"]
+        },
+        "traits": ["communicator", "empathetic", "burnout-risk", "organized"]
+      },
+      "Student": {
+        "questions": [
+          "How many hours do you study per day?",
+          "Rate your academic stress level (1–10):",
+          "How well are you sleeping?",
+          "How do you handle exam/deadline pressure?",
+          "How connected do you feel to your peers?"
+        ],
+        "options": {
+          "5": ["Very connected", "Somewhat connected", "Isolated", "No connection"]
+        },
+        "traits": ["high-pressure", "socially-sensitive", "needs-routine"]
+      },
+      "Healthcare Worker": {
+        "questions": [
+          "How many hours do you work per week?",
+          "Rate your emotional exhaustion level (1–10):",
+          "How supported do you feel by your workplace?",
+          "How often do you practice self-care?",
+          "How frequently do you face emotionally challenging cases?"
+        ],
+        "options": {
+          "5": ["Daily", "Weekly", "Occasionally", "Rarely"]
+        },
+        "traits": ["emotionally-resilient", "overworked", "needs-reflection"]
+      },
+      "Other": {
+        "questions": [
+          "Rate your work stress level (1–10):",
+          "How many hours do you work per day?",
+          "Do you feel you have a good work-life balance?",
+          "How often do you take breaks during work hours?",
+          "Do you feel fulfilled by your current work?"
+        ],
+        "options": {
+          "4": ["Every hour", "Few times a day", "Once a day", "Rarely"],
+          "5": ["Very fulfilled", "Somewhat", "Neutral", "Not fulfilled"]
+        },
+        "traits": ["flexible", "generic-stress", "work-life-aware"]
+      }
+    }
+  }

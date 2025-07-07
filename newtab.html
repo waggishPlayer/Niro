@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Tab</title>
+  <link rel="stylesheet" href="newtab.css">
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #wallpaper {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      width: 100vw;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+    }
+    #taskSection {
+      position: fixed;
+      left: 0; right: 0; bottom: 90px;
+      background: rgba(30,30,30,0.85);
+      color: #fff;
+      z-index: 4;
+      padding: 22px 0 18px 0;
+      text-align: center;
+      font-size: 1.18em;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      box-shadow: 0 -2px 16px rgba(0,0,0,0.18);
+      min-height: 44px;
+      letter-spacing: 0.01em;
+      user-select: text;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+      left: 0; right: 0;
+      /* display: none; */
+      border: 2px solid #ff9800;
+    }
+    #taskSection .task-title {
+      font-weight: 600;
+      font-size: 1.08em;
+      margin-bottom: 6px;
+      letter-spacing: 0.01em;
+      text-transform: uppercase;
+      color: #ffd700;
+      display: block;
+    }
+    #taskSection .task-text {
+      display: block;
+      font-size: 1.08em;
+      line-height: 1.5;
+      margin-bottom: 0;
+    }
+    #quoteOverlay {
+      position: fixed;
+      left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.45);
+      color: #fff;
+      z-index: 3;
+      padding: 24px 0 16px 0;
+      text-align: center;
+      font-size: 1.3em;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      box-shadow: 0 -2px 16px rgba(0,0,0,0.15);
+      min-height: 48px;
+      letter-spacing: 0.01em;
+      user-select: text;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      max-width: 700px;
+      margin: 0 auto;
+      left: 0; right: 0;
+    }
+    #quoteOverlay .quote-text {
+      display: block;
+      margin-bottom: 0;
+      font-style: italic;
+      font-size: 1.25em;
+      line-height: 1.4;
+    }
+    #todoTabSection {
+      position: fixed;
+      z-index: 5;
+      left: 0;
+      right: 0;
+      top: 30px;
+      background: rgba(30,30,30,0.95);
+      color: #fff;
+      max-width: 700px;
+      margin: 0 auto;
+      border-radius: 18px;
+      padding: 18px 0 12px 0;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+      font-size: 1.12em;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="wallpaper"></div>
+  <div class="newtab-center-container">
+    <section id="tasksSection" class="newtab-section">
+      <div id="todoTabSection"></div>
+      <div id="taskSection">
+        <span class="task-title">Personalized Task</span>
+        <span class="task-text"></span>
+      </div>
+    </section>
+    <section id="quoteOverlay" class="newtab-section" style="display:none;">
+      <span class="quote-text"></span>
+    </section>
+  </div>
+  <script src="newtab.js"></script>
+</body>
+</html> 

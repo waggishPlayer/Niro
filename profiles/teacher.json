@@ -1,0 +1,567 @@
+{
+    "title": "Teacher Professional Wellness Tasks",
+    "description": "These tasks are designed for teachers to address classroom stress, workload pressures, emotional demands, and work-life balance challenges while promoting mental health and resilience in the educational environment.",
+    "total_tasks": 112,
+    "tasks": [
+      {
+        "id": 1,
+        "task": "Practice a 5-minute meditation before school starts to center yourself for the day ahead.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 2,
+        "task": "Write down three things you're grateful for from your teaching day to maintain positive perspective.",
+        "category": "gratitude"
+      },
+      {
+        "id": 3,
+        "task": "Take deep breathing breaks between classes to reset your energy and reduce stress.",
+        "category": "stress_management"
+      },
+      {
+        "id": 4,
+        "task": "Set clear boundaries with work emails and avoid checking them after dinner time.",
+        "category": "work_life_balance"
+      },
+      {
+        "id": 5,
+        "task": "Practice progressive muscle relaxation during your lunch break to release physical tension.",
+        "category": "relaxation"
+      },
+      {
+        "id": 6,
+        "task": "Join a teacher support group to share experiences and coping strategies with colleagues.",
+        "category": "social_support"
+      },
+      {
+        "id": 7,
+        "task": "Schedule monthly therapy sessions to maintain your mental health and process work stress.",
+        "category": "professional_help"
+      },
+      {
+        "id": 8,
+        "task": "Create a morning self-care routine that includes something you enjoy before heading to school.",
+        "category": "self_care"
+      },
+      {
+        "id": 9,
+        "task": "Practice saying no to non-essential committees and extra duties to protect your energy.",
+        "category": "boundary_setting"
+      },
+      {
+        "id": 10,
+        "task": "Take a mindful walk during your planning period to connect with nature and clear your mind.",
+        "category": "nature_therapy"
+      },
+      {
+        "id": 11,
+        "task": "Listen to calming music during class transitions to maintain a peaceful atmosphere.",
+        "category": "stress_management"
+      },
+      {
+        "id": 12,
+        "task": "Practice positive self-talk affirmations to counter negative thoughts about your teaching.",
+        "category": "self_esteem"
+      },
+      {
+        "id": 13,
+        "task": "Establish a consistent bedtime routine to improve sleep quality and energy for teaching.",
+        "category": "sleep_hygiene"
+      },
+      {
+        "id": 14,
+        "task": "Exercise for 30 minutes before or after school to release stress and boost mood.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 15,
+        "task": "Practice mindful eating during lunch instead of working through your meal break.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 16,
+        "task": "Declutter and organize your classroom weekly to create a more peaceful environment.",
+        "category": "environment"
+      },
+      {
+        "id": 17,
+        "task": "Use essential oils or aromatherapy in your classroom to create a calming atmosphere.",
+        "category": "sensory_wellness"
+      },
+      {
+        "id": 18,
+        "task": "Schedule regular check-ins with a trusted colleague to discuss challenges and successes.",
+        "category": "social_support"
+      },
+      {
+        "id": 19,
+        "task": "Practice yoga or stretching during your prep time to release physical tension.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 20,
+        "task": "Keep a stress journal to identify patterns and triggers in your teaching day.",
+        "category": "self_awareness"
+      },
+      {
+        "id": 21,
+        "task": "Create a teacher comfort kit with tea, healthy snacks, and stress-relief tools.",
+        "category": "self_care"
+      },
+      {
+        "id": 22,
+        "task": "Practice the 4-7-8 breathing technique before difficult parent conferences or meetings.",
+        "category": "stress_management"
+      },
+      {
+        "id": 23,
+        "task": "Set up a quiet corner in your classroom where you can take brief calming moments.",
+        "category": "environment"
+      },
+      {
+        "id": 24,
+        "task": "Attend mental health and wellness workshops specifically designed for educators.",
+        "category": "professional_development"
+      },
+      {
+        "id": 25,
+        "task": "Practice visualization exercises to mentally rehearse challenging classroom situations.",
+        "category": "coping_strategies"
+      },
+      {
+        "id": 26,
+        "task": "Use confident body language and power poses before teaching to boost self-assurance.",
+        "category": "self_confidence"
+      },
+      {
+        "id": 27,
+        "task": "Take 2-minute micro-breaks between lessons to reset and refocus your energy.",
+        "category": "stress_management"
+      },
+      {
+        "id": 28,
+        "task": "Practice mindful grading by taking breaks between papers to maintain focus.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 29,
+        "task": "Create a motivational playlist to listen to during challenging teaching days.",
+        "category": "mood_regulation"
+      },
+      {
+        "id": 30,
+        "task": "Set realistic daily goals for your teaching and celebrate small achievements.",
+        "category": "self_compassion"
+      },
+      {
+        "id": 31,
+        "task": "Practice desk exercises and stretches to reduce physical tension from long hours.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 32,
+        "task": "Use mindfulness apps during your commute to prepare for or decompress from work.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 33,
+        "task": "Schedule monthly massage or spa treatments as self-care for your demanding job.",
+        "category": "self_care"
+      },
+      {
+        "id": 34,
+        "task": "Practice emotional regulation techniques when dealing with difficult students or parents.",
+        "category": "emotional_intelligence"
+      },
+      {
+        "id": 35,
+        "task": "Create healthy boundaries with demanding parents and communicate them clearly.",
+        "category": "boundary_setting"
+      },
+      {
+        "id": 36,
+        "task": "Use humor and laughter as stress relief during challenging moments in teaching.",
+        "category": "coping_strategies"
+      },
+      {
+        "id": 37,
+        "task": "Practice effective time management to reduce overwhelming feelings about your workload.",
+        "category": "organization"
+      },
+      {
+        "id": 38,
+        "task": "Take vitamin D supplements or get sunlight exposure to support mood and energy.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 39,
+        "task": "Practice mindful walking between classrooms to transition peacefully between lessons.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 40,
+        "task": "Use stress balls or fidget tools during faculty meetings to manage restlessness.",
+        "category": "stress_management"
+      },
+      {
+        "id": 41,
+        "task": "Create a vision board for your teaching goals and personal aspirations.",
+        "category": "motivation"
+      },
+      {
+        "id": 42,
+        "task": "Practice assertiveness skills when communicating with administration about your needs.",
+        "category": "communication"
+      },
+      {
+        "id": 43,
+        "task": "Take mental health days when needed without guilt about missing school.",
+        "category": "self_care"
+      },
+      {
+        "id": 44,
+        "task": "Practice cognitive reframing to challenge negative thoughts about your teaching abilities.",
+        "category": "cognitive_behavioral"
+      },
+      {
+        "id": 45,
+        "task": "Create a daily morning intention or teaching mantra to start your day positively.",
+        "category": "positive_psychology"
+      },
+      {
+        "id": 46,
+        "task": "Use a standing desk or exercise ball chair to reduce physical strain while teaching.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 47,
+        "task": "Practice digital detox on weekends to truly disconnect from work demands.",
+        "category": "work_life_balance"
+      },
+      {
+        "id": 48,
+        "task": "Create a quick self-care checklist for busy teaching days to maintain wellness.",
+        "category": "self_care"
+      },
+      {
+        "id": 49,
+        "task": "Practice loving-kindness meditation to cultivate compassion for difficult students.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 50,
+        "task": "Use calming colors in your classroom decoration to create a peaceful learning environment.",
+        "category": "environment"
+      },
+      {
+        "id": 51,
+        "task": "Practice square breathing during stressful moments like classroom disruptions.",
+        "category": "stress_management"
+      },
+      {
+        "id": 52,
+        "task": "Schedule regular social time with friends outside of the education field.",
+        "category": "social_support"
+      },
+      {
+        "id": 53,
+        "task": "Practice self-compassion exercises when you make mistakes in your teaching.",
+        "category": "self_compassion"
+      },
+      {
+        "id": 54,
+        "task": "Use positive psychology techniques to focus on strengths rather than deficits.",
+        "category": "positive_psychology"
+      },
+      {
+        "id": 55,
+        "task": "Create a designated worry time to contain anxious thoughts about teaching challenges.",
+        "category": "anxiety_management"
+      },
+      {
+        "id": 56,
+        "task": "Practice grounding techniques using the 5-4-3-2-1 method during overwhelming moments.",
+        "category": "anxiety_management"
+      },
+      {
+        "id": 57,
+        "task": "Use ergonomic tools and proper posture to reduce physical strain from teaching.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 58,
+        "task": "Practice mindful lesson planning to stay present rather than overwhelmed by curriculum.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 59,
+        "task": "Create a gratitude jar to collect positive teaching moments throughout the year.",
+        "category": "positive_psychology"
+      },
+      {
+        "id": 60,
+        "task": "Practice emotional freedom technique (EFT) tapping for stress relief.",
+        "category": "stress_management"
+      },
+      {
+        "id": 61,
+        "task": "Add plants and natural elements to your classroom for improved air quality and mood.",
+        "category": "environment"
+      },
+      {
+        "id": 62,
+        "task": "Practice mindful communication with students to reduce conflict and improve relationships.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 63,
+        "task": "Develop a comprehensive personal wellness plan that addresses all aspects of your health.",
+        "category": "self_care"
+      },
+      {
+        "id": 64,
+        "task": "Practice tai chi or qigong movements during breaks to promote calm energy.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 65,
+        "task": "Use guided imagery for relaxation after particularly stressful teaching days.",
+        "category": "relaxation"
+      },
+      {
+        "id": 66,
+        "task": "Practice acceptance and commitment therapy techniques to handle teaching challenges.",
+        "category": "psychological_flexibility"
+      },
+      {
+        "id": 67,
+        "task": "Create a morning motivation ritual to energize yourself for the teaching day.",
+        "category": "motivation"
+      },
+      {
+        "id": 68,
+        "task": "Use stress monitoring apps to track your wellbeing patterns throughout the school year.",
+        "category": "technology_wellness"
+      },
+      {
+        "id": 69,
+        "task": "Practice mindful transitions between different teaching activities and subjects.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 70,
+        "task": "Build a strong support network of fellow teachers who understand your challenges.",
+        "category": "social_support"
+      },
+      {
+        "id": 71,
+        "task": "Practice box breathing before difficult conversations with parents or administrators.",
+        "category": "stress_management"
+      },
+      {
+        "id": 72,
+        "task": "Use affirmation cards or motivational quotes to boost confidence on tough days.",
+        "category": "self_esteem"
+      },
+      {
+        "id": 73,
+        "task": "Practice mindful eating with nutritious snacks to maintain energy throughout the day.",
+        "category": "nutritional_wellness"
+      },
+      {
+        "id": 74,
+        "task": "Create a calming end-of-day routine to transition from teacher mode to personal time.",
+        "category": "self_care"
+      },
+      {
+        "id": 75,
+        "task": "Practice gratitude meditation to appreciate the meaningful aspects of teaching.",
+        "category": "positive_psychology"
+      },
+      {
+        "id": 76,
+        "task": "Use stress-reduction techniques specifically during parent-teacher conferences.",
+        "category": "stress_management"
+      },
+      {
+        "id": 77,
+        "task": "Create a personal mission statement that reminds you why you chose teaching.",
+        "category": "purpose"
+      },
+      {
+        "id": 78,
+        "task": "Practice mindful breathing during your commute to mentally prepare for or decompress from work.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 79,
+        "task": "Use positive visualization to imagine successful outcomes for challenging teaching situations.",
+        "category": "coping_strategies"
+      },
+      {
+        "id": 80,
+        "task": "Practice self-advocacy skills when communicating your needs to school administration.",
+        "category": "communication"
+      },
+      {
+        "id": 81,
+        "task": "Develop a hobby or creative outlet that has nothing to do with teaching.",
+        "category": "work_life_balance"
+      },
+      {
+        "id": 82,
+        "task": "Practice mindful classroom management techniques to reduce your stress and improve student behavior.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 83,
+        "task": "Use aromatherapy with calming scents to create a stress-free teaching environment.",
+        "category": "sensory_wellness"
+      },
+      {
+        "id": 84,
+        "task": "Practice emotional regulation strategies during challenging student behaviors or conflicts.",
+        "category": "emotional_intelligence"
+      },
+      {
+        "id": 85,
+        "task": "Create a monthly personal retreat day for deep rest and reflection on your teaching journey.",
+        "category": "self_care"
+      },
+      {
+        "id": 86,
+        "task": "Practice mindful listening with colleagues to build stronger professional relationships.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 87,
+        "task": "Use stress inoculation training to prepare for and handle difficult teaching situations.",
+        "category": "resilience"
+      },
+      {
+        "id": 88,
+        "task": "Practice mindful technology use to avoid burnout from constant digital demands.",
+        "category": "digital_wellness"
+      },
+      {
+        "id": 89,
+        "task": "Create a personal mantra to repeat during the most challenging moments of teaching.",
+        "category": "coping_strategies"
+      },
+      {
+        "id": 90,
+        "task": "Practice regular self-reflection journaling about your teaching experiences and growth.",
+        "category": "self_awareness"
+      },
+      {
+        "id": 91,
+        "task": "Use evidence-based positive psychology interventions to boost your teaching satisfaction.",
+        "category": "positive_psychology"
+      },
+      {
+        "id": 92,
+        "task": "Practice mindful goal setting for both your professional development and personal wellbeing.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 93,
+        "task": "Create a comprehensive stress management toolkit specifically for teaching challenges.",
+        "category": "stress_management"
+      },
+      {
+        "id": 94,
+        "task": "Practice compassion-focused therapy techniques to be kinder to yourself as a teacher.",
+        "category": "self_compassion"
+      },
+      {
+        "id": 95,
+        "task": "Use mindfulness bells or chimes to create peaceful transitions in your classroom.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 96,
+        "task": "Practice resilience building exercises to bounce back from difficult teaching experiences.",
+        "category": "resilience"
+      },
+      {
+        "id": 97,
+        "task": "Create a personal teaching wellness mission statement that guides your self-care decisions.",
+        "category": "purpose"
+      },
+      {
+        "id": 98,
+        "task": "Practice mindful conflict resolution when dealing with difficult students or parents.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 99,
+        "task": "Use temperature therapy like warm baths or cold compresses for stress relief after teaching.",
+        "category": "physical_wellness"
+      },
+      {
+        "id": 100,
+        "task": "Practice emotional intelligence exercises to better understand and manage your teaching emotions.",
+        "category": "emotional_intelligence"
+      },
+      {
+        "id": 101,
+        "task": "Create a personal teaching wellness tracking system to monitor your mental health.",
+        "category": "self_monitoring"
+      },
+      {
+        "id": 102,
+        "task": "Practice mindful decision making when faced with challenging teaching situations.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 103,
+        "task": "Use light therapy or bright lighting to regulate mood during dark winter months.",
+        "category": "mood_regulation"
+      },
+      {
+        "id": 104,
+        "task": "Practice proactive stress prevention techniques before the school year becomes overwhelming.",
+        "category": "prevention"
+      },
+      {
+        "id": 105,
+        "task": "Create a comprehensive teacher burnout prevention plan with specific strategies and resources.",
+        "category": "burnout_prevention"
+      },
+      {
+        "id": 106,
+        "task": "Practice mindful integration of your teaching identity with your personal life and values.",
+        "category": "work_life_balance"
+      },
+      {
+        "id": 107,
+        "task": "Use mindfulness and meditation apps designed specifically for educators and their unique stressors.",
+        "category": "technology_wellness"
+      },
+      {
+        "id": 108,
+        "task": "Practice self-care advocacy by speaking up about teacher mental health needs in your school.",
+        "category": "advocacy"
+      },
+      {
+        "id": 109,
+        "task": "Create a teacher wellness emergency plan for times when stress becomes overwhelming.",
+        "category": "crisis_management"
+      },
+      {
+        "id": 110,
+        "task": "Practice mindful professional development by choosing growth opportunities that align with your wellbeing.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 111,
+        "task": "Use peer support systems and mentorship relationships to maintain your teaching mental health.",
+        "category": "social_support"
+      },
+      {
+        "id": 112,
+        "task": "Practice comprehensive self-care planning that addresses all dimensions of your wellbeing as an educator.",
+        "category": "self_care"
+      }
+    ]
+  }

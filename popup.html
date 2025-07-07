@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" style="width:380px;min-width:380px;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=380, initial-scale=1.0">
+  <title>Niro Onboarding</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body style="width:380px;min-width:380px;">
+  <div class="popup-container">
+    <img src="assets/icon128.png" alt="Niro Logo" class="logo">
+    <h1>Welcome to Niro!</h1>
+    <div style="color: var(--primary-dark); font-size: 1.08em; margin-bottom: 8px; font-weight: 500;">Empower your mind, one step at a time.</div>
+    <div id="popupStreakSummary" style="display:none; margin-bottom: 8px;"></div>
+    <hr style="width: 60%; border: none; border-top: 2px solid var(--accent); margin: 10px 0 18px 0;">
+    <p>Your mental wellness companion.</p>
+    <button id="getStartedBtn">Get Started</button>
+    <div id="questionsContainer" style="display:none;"></div>
+  </div>
+  <div id="dashboard-bg" style="display:none;"></div>
+  <div class="dashboard-container" style="max-width:380px;width:100%;padding:32px 12px 32px 12px;display:none;">
+    <div id="dashboardHeader"></div>
+    <nav id="featureNav" class="feature-nav" aria-label="Main features"></nav>
+    <div id="featureContent"></div>
+  </div>
+  <script src="utils.js"></script>
+  <script src="dashboard.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html> 

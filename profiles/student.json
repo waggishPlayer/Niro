@@ -1,0 +1,567 @@
+{
+  "title": "Student Mental Health & Wellness Tasks",
+  "description": "These tasks address academic stress, exam anxiety, social pressures, financial worries, imposter syndrome, and future uncertainty while building resilience, confidence, and healthy study habits.",
+  "total_tasks": 112,
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Practice the '5-minute brain dump' before studying to clear mental clutter and anxiety.",
+      "category": "study_preparation"
+    },
+    {
+      "id": 2,
+      "task": "Use positive self-talk before exams: 'I am prepared and capable of handling this challenge.'",
+      "category": "exam_confidence"
+    },
+    {
+      "id": 3,
+      "task": "Take a 10-minute walk between study sessions to reset your focus and reduce mental fatigue.",
+      "category": "study_breaks"
+    },
+    {
+      "id": 4,
+      "task": "Practice the 'academic anxiety reset' - deep breathing when overwhelmed by coursework.",
+      "category": "anxiety_management"
+    },
+    {
+      "id": 5,
+      "task": "Keep a 'wins journal' of academic achievements, no matter how small, to combat imposter syndrome.",
+      "category": "confidence_building"
+    },
+    {
+      "id": 6,
+      "task": "Use the 'pomodoro with intention' - set a positive intention before each 25-minute study block.",
+      "category": "focused_studying"
+    },
+    {
+      "id": 7,
+      "task": "Practice gratitude for your opportunity to learn when feeling overwhelmed by coursework.",
+      "category": "perspective_shift"
+    },
+    {
+      "id": 8,
+      "task": "Create a 'calm corner' in your dorm/room with comfort items for stress relief.",
+      "category": "safe_space"
+    },
+    {
+      "id": 9,
+      "task": "Use the 'test anxiety toolkit' - breathing exercises, positive affirmations, and grounding techniques.",
+      "category": "test_anxiety"
+    },
+    {
+      "id": 10,
+      "task": "Practice the 'comparison detox' - limit social media when feeling inadequate about others' success.",
+      "category": "social_comparison"
+    },
+    {
+      "id": 11,
+      "task": "Keep a 'growth mindset journal' - write about challenges as opportunities to improve.",
+      "category": "growth_mindset"
+    },
+    {
+      "id": 12,
+      "task": "Use the 'perfectionism pause' - ask 'Is this good enough?' to prevent endless revisions.",
+      "category": "perfectionism"
+    },
+    {
+      "id": 13,
+      "task": "Practice 'study session meditation' - 2 minutes of breathing before opening textbooks.",
+      "category": "mindful_studying"
+    },
+    {
+      "id": 14,
+      "task": "Create a 'future self visualization' to stay motivated during difficult academic periods.",
+      "category": "motivation"
+    },
+    {
+      "id": 15,
+      "task": "Use the 'academic overwhelm SOS' - break large tasks into tiny, manageable steps.",
+      "category": "overwhelm_management"
+    },
+    {
+      "id": 16,
+      "task": "Practice loving-kindness meditation for classmates you feel competitive with.",
+      "category": "peer_relationships"
+    },
+    {
+      "id": 17,
+      "task": "Keep a 'learning joy list' of subjects or topics that genuinely excite you.",
+      "category": "intrinsic_motivation"
+    },
+    {
+      "id": 18,
+      "task": "Use the 'grade grief process' - allow yourself to feel disappointed, then move forward.",
+      "category": "disappointment_processing"
+    },
+    {
+      "id": 19,
+      "task": "Practice the 'imposter syndrome antidote' - list three things you've genuinely learned this week.",
+      "category": "imposter_syndrome"
+    },
+    {
+      "id": 20,
+      "task": "Create a 'stress release playlist' for post-exam emotional decompression.",
+      "category": "emotional_release"
+    },
+    {
+      "id": 21,
+      "task": "Use the 'financial anxiety check-in' - acknowledge money worries without letting them paralyze you.",
+      "category": "financial_stress"
+    },
+    {
+      "id": 22,
+      "task": "Practice the 'procrastination compassion' technique - understand the fear behind avoidance.",
+      "category": "procrastination_healing"
+    },
+    {
+      "id": 23,
+      "task": "Keep a 'professor appreciation journal' to counter negative thoughts about difficult instructors.",
+      "category": "authority_relationships"
+    },
+    {
+      "id": 24,
+      "task": "Use the 'homesickness helper' - create rituals that connect you to home while building new belonging.",
+      "category": "homesickness"
+    },
+    {
+      "id": 25,
+      "task": "Practice the 'career anxiety pause' - focus on present learning rather than future job market fears.",
+      "category": "career_anxiety"
+    },
+    {
+      "id": 26,
+      "task": "Create a 'study buddy support system' for accountability and emotional encouragement.",
+      "category": "social_support"
+    },
+    {
+      "id": 27,
+      "task": "Use the 'all-nighter recovery ritual' - gentle self-care after pushing through exhaustion.",
+      "category": "exhaustion_recovery"
+    },
+    {
+      "id": 28,
+      "task": "Practice gratitude for your brain's ability to learn new information when studying feels hard.",
+      "category": "brain_appreciation"
+    },
+    {
+      "id": 29,
+      "task": "Keep a 'resilience record' of times you overcame academic challenges in the past.",
+      "category": "resilience_building"
+    },
+    {
+      "id": 30,
+      "task": "Use the 'social anxiety toolkit' for class participation - breathing, grounding, self-encouragement.",
+      "category": "classroom_anxiety"
+    },
+    {
+      "id": 31,
+      "task": "Practice the 'quarter-life crisis calm' - acknowledge uncertainty about the future as normal.",
+      "category": "future_uncertainty"
+    },
+    {
+      "id": 32,
+      "task": "Create a 'motivation emergency kit' with inspiring quotes, goals, and reasons for studying.",
+      "category": "motivation_maintenance"
+    },
+    {
+      "id": 33,
+      "task": "Use the 'failure reframe' technique - view bad grades as data, not identity judgments.",
+      "category": "failure_resilience"
+    },
+    {
+      "id": 34,
+      "task": "Practice mindful eating during study sessions to prevent stress-eating or forgetting meals.",
+      "category": "mindful_eating"
+    },
+    {
+      "id": 35,
+      "task": "Keep a 'curiosity journal' to reconnect with the joy of learning when studies feel mechanical.",
+      "category": "learning_joy"
+    },
+    {
+      "id": 36,
+      "task": "Use the 'dorm room meditation' - find peace in small, shared spaces through breathing exercises.",
+      "category": "space_meditation"
+    },
+    {
+      "id": 37,
+      "task": "Practice the 'study guilt release' - forgive yourself for breaks and non-productive time.",
+      "category": "guilt_management"
+    },
+    {
+      "id": 38,
+      "task": "Create a 'loneliness action plan' for when academic isolation becomes overwhelming.",
+      "category": "loneliness_management"
+    },
+    {
+      "id": 39,
+      "task": "Use the 'parent pressure pause' - separate your goals from family expectations.",
+      "category": "family_pressure"
+    },
+    {
+      "id": 40,
+      "task": "Practice loving-kindness for your stressed-out self during finals week.",
+      "category": "self_compassion"
+    },
+    {
+      "id": 41,
+      "task": "Keep a 'skills development log' to track personal growth beyond grades.",
+      "category": "holistic_growth"
+    },
+    {
+      "id": 42,
+      "task": "Use the 'library anxiety relief' - grounding techniques for overwhelming study environments.",
+      "category": "environment_anxiety"
+    },
+    {
+      "id": 43,
+      "task": "Practice the 'assignment anxiety breakthrough' - start with just one sentence to overcome paralysis.",
+      "category": "starting_anxiety"
+    },
+    {
+      "id": 44,
+      "task": "Create a 'celebration ritual' for completing major assignments or exams.",
+      "category": "achievement_celebration"
+    },
+    {
+      "id": 45,
+      "task": "Use the 'roommate relationship meditation' - send goodwill to difficult living situations.",
+      "category": "roommate_harmony"
+    },
+    {
+      "id": 46,
+      "task": "Practice gratitude for teachers who challenge you, even when it's frustrating.",
+      "category": "challenge_appreciation"
+    },
+    {
+      "id": 47,
+      "task": "Keep a 'campus connection journal' of positive interactions to counter social isolation.",
+      "category": "social_connection"
+    },
+    {
+      "id": 48,
+      "task": "Use the 'lecture hall confidence booster' - sit up straight and breathe deeply during class.",
+      "category": "classroom_confidence"
+    },
+    {
+      "id": 49,
+      "task": "Practice the 'grade release meditation' - let go of attachment to specific outcomes.",
+      "category": "outcome_detachment"
+    },
+    {
+      "id": 50,
+      "task": "Create a 'study space blessing' ritual to make any environment feel calm and focused.",
+      "category": "space_sanctification"
+    },
+    {
+      "id": 51,
+      "task": "Use the 'academic shame spiral stopper' - interrupt negative self-talk with facts and kindness.",
+      "category": "shame_interruption"
+    },
+    {
+      "id": 52,
+      "task": "Practice the 'textbook overwhelm technique' - preview chapters with curiosity, not dread.",
+      "category": "learning_approach"
+    },
+    {
+      "id": 53,
+      "task": "Keep a 'personal victory log' of non-academic achievements to maintain balanced self-worth.",
+      "category": "identity_balance"
+    },
+    {
+      "id": 54,
+      "task": "Use the 'cafeteria meditation' - practice mindfulness during meals to reduce social anxiety.",
+      "category": "social_eating"
+    },
+    {
+      "id": 55,
+      "task": "Practice loving-kindness for yourself when comparing your inside struggles to others' outside success.",
+      "category": "comparison_healing"
+    },
+    {
+      "id": 56,
+      "task": "Create a 'stress signature awareness' - recognize your unique stress patterns early.",
+      "category": "stress_awareness"
+    },
+    {
+      "id": 57,
+      "task": "Use the 'group project anxiety manager' - breathing techniques for collaborative stress.",
+      "category": "collaboration_anxiety"
+    },
+    {
+      "id": 58,
+      "task": "Practice gratitude for your capacity to handle multiple deadlines simultaneously.",
+      "category": "capability_appreciation"
+    },
+    {
+      "id": 59,
+      "task": "Keep a 'professor humanity reminder' - remember teachers are people with their own struggles.",
+      "category": "humanization_practice"
+    },
+    {
+      "id": 60,
+      "task": "Use the 'email anxiety relief' - breathe deeply before opening potentially stressful academic emails.",
+      "category": "communication_anxiety"
+    },
+    {
+      "id": 61,
+      "task": "Practice the 'campus walking meditation' - mindful movement between classes.",
+      "category": "transition_mindfulness"
+    },
+    {
+      "id": 62,
+      "task": "Create a 'wisdom collection' of lessons learned from academic mistakes and failures.",
+      "category": "wisdom_building"
+    },
+    {
+      "id": 63,
+      "task": "Use the 'scholarship stress soother' - manage financial aid anxiety with grounding techniques.",
+      "category": "financial_anxiety"
+    },
+    {
+      "id": 64,
+      "task": "Practice self-compassion when struggling with concepts that seem easy for classmates.",
+      "category": "learning_differences"
+    },
+    {
+      "id": 65,
+      "task": "Keep a 'passion project journal' to maintain interests outside required coursework.",
+      "category": "passion_maintenance"
+    },
+    {
+      "id": 66,
+      "task": "Use the 'dorm room yoga' - gentle stretches for stress relief in small spaces.",
+      "category": "physical_release"
+    },
+    {
+      "id": 67,
+      "task": "Practice the 'major doubt meditation' - sit with uncertainty about career path without panic.",
+      "category": "career_uncertainty"
+    },
+    {
+      "id": 68,
+      "task": "Create a 'study motivation anchor' - a physical object that reminds you of your goals.",
+      "category": "motivation_anchor"
+    },
+    {
+      "id": 69,
+      "task": "Use the 'deadline pressure valve' - release techniques when multiple due dates overwhelm.",
+      "category": "deadline_management"
+    },
+    {
+      "id": 70,
+      "task": "Practice gratitude for your professors' expertise and dedication to teaching.",
+      "category": "teacher_appreciation"
+    },
+    {
+      "id": 71,
+      "task": "Keep a 'learning style celebration' journal - appreciate how your unique brain processes information.",
+      "category": "learning_style_acceptance"
+    },
+    {
+      "id": 72,
+      "task": "Use the 'presentation anxiety transformer' - convert nervous energy into enthusiasm.",
+      "category": "presentation_confidence"
+    },
+    {
+      "id": 73,
+      "task": "Practice the 'grade expectations release' - study for learning, not just letter grades.",
+      "category": "intrinsic_learning"
+    },
+    {
+      "id": 74,
+      "task": "Create a 'campus belonging ritual' to feel more connected to your academic community.",
+      "category": "belonging_building"
+    },
+    {
+      "id": 75,
+      "task": "Use the 'study overwhelm circuit breaker' - stop, breathe, prioritize when everything feels urgent.",
+      "category": "priority_management"
+    },
+    {
+      "id": 76,
+      "task": "Practice loving-kindness for classmates who seem more successful or confident.",
+      "category": "peer_compassion"
+    },
+    {
+      "id": 77,
+      "task": "Keep a 'intellectual growth journal' - track how your thinking has evolved through education.",
+      "category": "cognitive_development"
+    },
+    {
+      "id": 78,
+      "task": "Use the 'test-taking zen' - calm confidence techniques during exams.",
+      "category": "exam_presence"
+    },
+    {
+      "id": 79,
+      "task": "Practice gratitude for your brain's neuroplasticity and ability to form new neural pathways.",
+      "category": "brain_gratitude"
+    },
+    {
+      "id": 80,
+      "task": "Create a 'semester transition ritual' to process endings and prepare for new beginnings.",
+      "category": "transition_ritual"
+    },
+    {
+      "id": 81,
+      "task": "Use the 'office hours anxiety relief' - preparation techniques for meeting with professors.",
+      "category": "authority_interaction"
+    },
+    {
+      "id": 82,
+      "task": "Practice the 'study group harmony' meditation - release competitive energy with peers.",
+      "category": "collaborative_learning"
+    },
+    {
+      "id": 83,
+      "task": "Keep a 'curiosity resurrection list' - questions that genuinely interest you about your field.",
+      "category": "intellectual_curiosity"
+    },
+    {
+      "id": 84,
+      "task": "Use the 'academic burnout early warning system' - recognize signs before complete exhaustion.",
+      "category": "burnout_prevention"
+    },
+    {
+      "id": 85,
+      "task": "Practice self-compassion when your academic performance doesn't match your internal expectations.",
+      "category": "expectation_management"
+    },
+    {
+      "id": 86,
+      "task": "Create a 'study break meditation' - mindful pauses that actually restore energy.",
+      "category": "restorative_breaks"
+    },
+    {
+      "id": 87,
+      "task": "Use the 'thesis/dissertation anxiety soother' - break massive projects into daily calm actions.",
+      "category": "big_project_management"
+    },
+    {
+      "id": 88,
+      "task": "Practice gratitude for access to education and the privilege of learning.",
+      "category": "educational_privilege"
+    },
+    {
+      "id": 89,
+      "task": "Keep a 'skill transfer journal' - notice how academic skills apply to life situations.",
+      "category": "skill_application"
+    },
+    {
+      "id": 90,
+      "task": "Use the 'campus resource meditation' - reduce shame about needing academic support services.",
+      "category": "help_seeking"
+    },
+    {
+      "id": 91,
+      "task": "Practice the 'graduation anxiety soother' - manage fears about post-graduation life.",
+      "category": "transition_anxiety"
+    },
+    {
+      "id": 92,
+      "task": "Create a 'learning celebration ritual' for mastering difficult concepts.",
+      "category": "mastery_celebration"
+    },
+    {
+      "id": 93,
+      "task": "Use the 'student identity integration' practice - balance being a student with other aspects of self.",
+      "category": "identity_integration"
+    },
+    {
+      "id": 94,
+      "task": "Practice loving-kindness for your younger self who started this educational journey.",
+      "category": "self_progression"
+    },
+    {
+      "id": 95,
+      "task": "Keep a 'mentor appreciation journal' for people who've supported your academic growth.",
+      "category": "support_gratitude"
+    },
+    {
+      "id": 96,
+      "task": "Use the 'academic imposter syndrome shield' - remind yourself of concrete evidence of belonging.",
+      "category": "belonging_evidence"
+    },
+    {
+      "id": 97,
+      "task": "Practice the 'knowledge integration meditation' - connect new learning to existing understanding.",
+      "category": "knowledge_synthesis"
+    },
+    {
+      "id": 98,
+      "task": "Create a 'study environment optimization' practice for maximum mental clarity.",
+      "category": "environmental_optimization"
+    },
+    {
+      "id": 99,
+      "task": "Use the 'academic ancestor honoring' - appreciate those who made your education possible.",
+      "category": "educational_lineage"
+    },
+    {
+      "id": 100,
+      "task": "Practice gratitude for mistakes and confusion as necessary parts of the learning process.",
+      "category": "learning_process_acceptance"
+    },
+    {
+      "id": 101,
+      "task": "Keep a 'future contribution vision' - imagine how your education will serve others.",
+      "category": "purpose_connection"
+    },
+    {
+      "id": 102,
+      "task": "Use the 'academic anxiety transformation' - convert worry into focused preparation energy.",
+      "category": "energy_transformation"
+    },
+    {
+      "id": 103,
+      "task": "Practice the 'learning pace acceptance' meditation - honor your unique rhythm of understanding.",
+      "category": "pace_acceptance"
+    },
+    {
+      "id": 104,
+      "task": "Create a 'study session gratitude' practice - appreciate the opportunity to grow intellectually.",
+      "category": "study_gratitude"
+    },
+    {
+      "id": 105,
+      "task": "Use the 'academic pressure release valve' - healthy ways to express frustration with coursework.",
+      "category": "frustration_release"
+    },
+    {
+      "id": 106,
+      "task": "Practice loving-kindness for your brain when it feels slow or inadequate during learning.",
+      "category": "cognitive_compassion"
+    },
+    {
+      "id": 107,
+      "task": "Keep a 'wisdom beyond grades' journal - insights gained through education beyond test scores.",
+      "category": "holistic_learning"
+    },
+    {
+      "id": 108,
+      "task": "Use the 'student community meditation' - feel connected to learners across time and space.",
+      "category": "universal_student_connection"
+    },
+    {
+      "id": 109,
+      "task": "Practice the 'intellectual humility' meditation - embrace not knowing as the beginning of wisdom.",
+      "category": "intellectual_humility"
+    },
+    {
+      "id": 110,
+      "task": "Create a 'semester reflection ritual' - honor growth and learning from challenging academic periods.",
+      "category": "period_reflection"
+    },
+    {
+      "id": 111,
+      "task": "Use the 'knowledge gratitude practice' - appreciate the accumulated wisdom available through education.",
+      "category": "knowledge_appreciation"
+    },
+    {
+      "id": 112,
+      "task": "Practice the 'student warrior meditation' - recognize your courage in facing intellectual challenges daily.",
+      "category": "academic_courage"
+    }
+  ]
+}

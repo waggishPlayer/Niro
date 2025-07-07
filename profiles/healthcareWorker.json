@@ -1,0 +1,567 @@
+{
+  "title": "Healthcare Professional Wellness Tasks",
+  "description": "These tasks are designed for healthcare workers to address burnout, compassion fatigue, shift work challenges, and high-stress environments while promoting mental health and resilience.",
+  "total_tasks": 112,
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Practice a 3-minute breathing exercise between patient encounters to reset your nervous system.",
+      "category": "mindfulness"
+    },
+    {
+      "id": 2,
+      "task": "Write down one positive patient interaction at the end of each shift to counter compassion fatigue.",
+      "category": "gratitude"
+    },
+    {
+      "id": 3,
+      "task": "Do gentle neck rolls and shoulder shrugs after each hour of charting to prevent tension buildup.",
+      "category": "physical_health"
+    },
+    {
+      "id": 4,
+      "task": "Use a transition ritual (like washing hands mindfully) to separate work stress from home life.",
+      "category": "work_life_balance"
+    },
+    {
+      "id": 5,
+      "task": "Practice the STOP technique (Stop, Take a breath, Observe, Proceed) when feeling overwhelmed during shifts.",
+      "category": "stress_management"
+    },
+    {
+      "id": 6,
+      "task": "Keep a small gratitude journal for moments of hope witnessed during patient care.",
+      "category": "gratitude"
+    },
+    {
+      "id": 7,
+      "task": "Take 5 minutes in your car before entering home to decompress and mentally transition.",
+      "category": "work_life_balance"
+    },
+    {
+      "id": 8,
+      "task": "Practice progressive muscle relaxation during break times to release physical tension.",
+      "category": "relaxation"
+    },
+    {
+      "id": 9,
+      "task": "Use positive self-talk when dealing with difficult patients: 'I am making a difference.'",
+      "category": "self_compassion"
+    },
+    {
+      "id": 10,
+      "task": "Schedule regular check-ins with a trusted colleague to discuss emotional challenges.",
+      "category": "social_support"
+    },
+    {
+      "id": 11,
+      "task": "Create a 'wins' list of successful patient outcomes to review on tough days.",
+      "category": "resilience"
+    },
+    {
+      "id": 12,
+      "task": "Practice grounding techniques (5-4-3-2-1 senses) when anxiety peaks during emergencies.",
+      "category": "anxiety_management"
+    },
+    {
+      "id": 13,
+      "task": "Take a mindful walk during lunch breaks, focusing on nature or peaceful surroundings.",
+      "category": "mindfulness"
+    },
+    {
+      "id": 14,
+      "task": "Use visualization techniques before difficult procedures to maintain calm confidence.",
+      "category": "performance_anxiety"
+    },
+    {
+      "id": 15,
+      "task": "Practice compassion meditation for 5 minutes, including compassion for yourself.",
+      "category": "self_compassion"
+    },
+    {
+      "id": 16,
+      "task": "Keep a small comfort item (photo, stone, essential oil) in your pocket for grounding.",
+      "category": "comfort_coping"
+    },
+    {
+      "id": 17,
+      "task": "Do gentle stretches in the supply closet to release tension without being seen.",
+      "category": "physical_health"
+    },
+    {
+      "id": 18,
+      "task": "Practice the 'emotional reset' - name your feeling, accept it, then choose your response.",
+      "category": "emotional_regulation"
+    },
+    {
+      "id": 19,
+      "task": "Write a letter to your future self about why you chose healthcare and what gives you purpose.",
+      "category": "purpose_reflection"
+    },
+    {
+      "id": 20,
+      "task": "Use humor appropriately with colleagues to lighten the emotional load of difficult days.",
+      "category": "humor_therapy"
+    },
+    {
+      "id": 21,
+      "task": "Practice the 'double shift recovery' routine: hydrate, protein snack, 10-minute meditation.",
+      "category": "shift_recovery"
+    },
+    {
+      "id": 22,
+      "task": "Keep a 'hope journal' of patients who recovered or moments of human connection.",
+      "category": "hope_building"
+    },
+    {
+      "id": 23,
+      "task": "Use the 'emotional airbag' technique - pause for 3 seconds before responding to stress.",
+      "category": "emotional_regulation"
+    },
+    {
+      "id": 24,
+      "task": "Practice loving-kindness meditation for difficult patients to prevent resentment buildup.",
+      "category": "compassion_fatigue"
+    },
+    {
+      "id": 25,
+      "task": "Create a 'decompression playlist' for your commute home from difficult shifts.",
+      "category": "transition_ritual"
+    },
+    {
+      "id": 26,
+      "task": "Use positive affirmations before entering patient rooms: 'I bring healing presence.'",
+      "category": "confidence_building"
+    },
+    {
+      "id": 27,
+      "task": "Practice the 'emotional hygiene' routine - mentally wash off negative emotions after work.",
+      "category": "emotional_hygiene"
+    },
+    {
+      "id": 28,
+      "task": "Keep a small card with your 'why' - your reason for being in healthcare - visible during shifts.",
+      "category": "purpose_reminder"
+    },
+    {
+      "id": 29,
+      "task": "Practice box breathing (4-4-4-4) during handoff reports to stay centered.",
+      "category": "breathing_techniques"
+    },
+    {
+      "id": 30,
+      "task": "Use the 'professional boundary' visualization to separate patient trauma from personal pain.",
+      "category": "boundary_setting"
+    },
+    {
+      "id": 31,
+      "task": "Schedule one 'mental health day' per month to prevent burnout accumulation.",
+      "category": "preventive_care"
+    },
+    {
+      "id": 32,
+      "task": "Practice micro-meditations (30 seconds) while washing hands between patients.",
+      "category": "mindfulness"
+    },
+    {
+      "id": 33,
+      "task": "Keep a 'gratitude rock' in your pocket to hold during stressful moments.",
+      "category": "grounding_techniques"
+    },
+    {
+      "id": 34,
+      "task": "Use the 'emotional temperature check' - rate your stress 1-10 hourly and take action at 7+.",
+      "category": "self_monitoring"
+    },
+    {
+      "id": 35,
+      "task": "Practice the 'shift blessing' - set an intention for healing and hope at shift start.",
+      "category": "intention_setting"
+    },
+    {
+      "id": 36,
+      "task": "Create a 'comfort kit' for your locker: tea, aromatherapy, inspiring quotes.",
+      "category": "comfort_coping"
+    },
+    {
+      "id": 37,
+      "task": "Use the 'emotional firewall' technique - visualize protection from patient suffering.",
+      "category": "emotional_protection"
+    },
+    {
+      "id": 38,
+      "task": "Practice gratitude for your body's ability to serve others during physical fatigue.",
+      "category": "body_appreciation"
+    },
+    {
+      "id": 39,
+      "task": "Keep a 'strength journal' of moments you handled crises well to build confidence.",
+      "category": "confidence_building"
+    },
+    {
+      "id": 40,
+      "task": "Use the 'emotional parking lot' - write worries on paper to address later.",
+      "category": "worry_management"
+    },
+    {
+      "id": 41,
+      "task": "Practice the 'healing touch' meditation - send loving energy through your hands.",
+      "category": "healing_intention"
+    },
+    {
+      "id": 42,
+      "task": "Create a 'victory dance' ritual for successful patient outcomes, even if done mentally.",
+      "category": "celebration_ritual"
+    },
+    {
+      "id": 43,
+      "task": "Use positive imagery before entering rooms with suffering patients.",
+      "category": "visualization"
+    },
+    {
+      "id": 44,
+      "task": "Practice the 'emotional shower' - visualize washing away the day's emotional residue.",
+      "category": "emotional_cleansing"
+    },
+    {
+      "id": 45,
+      "task": "Keep a 'wisdom collection' of lessons learned from challenging patient cases.",
+      "category": "wisdom_building"
+    },
+    {
+      "id": 46,
+      "task": "Use the 'compassion fatigue reset' - take 5 minutes to remember why you care.",
+      "category": "compassion_renewal"
+    },
+    {
+      "id": 47,
+      "task": "Practice sending silent blessings to difficult patients to maintain heart connection.",
+      "category": "heart_protection"
+    },
+    {
+      "id": 48,
+      "task": "Create a 'shift sanctuary' in your mind - a peaceful place to visit during stress.",
+      "category": "mental_sanctuary"
+    },
+    {
+      "id": 49,
+      "task": "Use the 'emotional thermostat' - adjust your emotional temperature through breathing.",
+      "category": "emotional_regulation"
+    },
+    {
+      "id": 50,
+      "task": "Practice the 'healing presence' meditation - focus on being a conduit for healing.",
+      "category": "healing_presence"
+    },
+    {
+      "id": 51,
+      "task": "Keep a 'hope seed' collection - small moments of hope to plant in dark times.",
+      "category": "hope_cultivation"
+    },
+    {
+      "id": 52,
+      "task": "Use the 'emotional GPS' - check in with feelings and redirect toward health.",
+      "category": "emotional_navigation"
+    },
+    {
+      "id": 53,
+      "task": "Practice gratitude for your professional skills during moments of doubt.",
+      "category": "skill_appreciation"
+    },
+    {
+      "id": 54,
+      "task": "Create a 'resilience mantra' to repeat during the most challenging moments.",
+      "category": "resilience_building"
+    },
+    {
+      "id": 55,
+      "task": "Use the 'emotional budget' concept - allocate energy wisely throughout shifts.",
+      "category": "energy_management"
+    },
+    {
+      "id": 56,
+      "task": "Practice the 'heart shield' visualization before entering emotionally charged situations.",
+      "category": "emotional_protection"
+    },
+    {
+      "id": 57,
+      "task": "Keep a 'miracle moments' journal of unexpected patient recoveries or breakthroughs.",
+      "category": "miracle_awareness"
+    },
+    {
+      "id": 58,
+      "task": "Use the 'emotional first aid' kit - breathing, grounding, self-compassion for tough moments.",
+      "category": "emotional_first_aid"
+    },
+    {
+      "id": 59,
+      "task": "Practice the 'therapeutic presence' - focus on being fully present with patients.",
+      "category": "presence_practice"
+    },
+    {
+      "id": 60,
+      "task": "Create a 'stress release' ritual for the end of particularly difficult shifts.",
+      "category": "stress_release"
+    },
+    {
+      "id": 61,
+      "task": "Use the 'emotional weather report' - acknowledge feelings without judgment.",
+      "category": "emotional_awareness"
+    },
+    {
+      "id": 62,
+      "task": "Practice loving-kindness for yourself when making medical errors or having regrets.",
+      "category": "self_forgiveness"
+    },
+    {
+      "id": 63,
+      "task": "Keep a 'courage collection' of times you advocated for patients despite fear.",
+      "category": "courage_building"
+    },
+    {
+      "id": 64,
+      "task": "Use the 'emotional immune system' - build resilience through daily micro-practices.",
+      "category": "resilience_building"
+    },
+    {
+      "id": 65,
+      "task": "Practice the 'healing light' meditation - visualize light flowing through you to patients.",
+      "category": "energy_healing"
+    },
+    {
+      "id": 66,
+      "task": "Create a 'shift intention' ritual to focus on service rather than survival.",
+      "category": "service_mindset"
+    },
+    {
+      "id": 67,
+      "task": "Use the 'emotional recycling' technique - transform negative emotions into compassion.",
+      "category": "emotional_transformation"
+    },
+    {
+      "id": 68,
+      "task": "Practice gratitude for your colleagues' support during challenging cases.",
+      "category": "team_appreciation"
+    },
+    {
+      "id": 69,
+      "task": "Keep a 'healing stories' collection to read when losing faith in recovery.",
+      "category": "faith_restoration"
+    },
+    {
+      "id": 70,
+      "task": "Use the 'emotional compass' - let values guide responses to difficult situations.",
+      "category": "values_alignment"
+    },
+    {
+      "id": 71,
+      "task": "Practice the 'sacred pause' before entering rooms with dying patients.",
+      "category": "death_preparation"
+    },
+    {
+      "id": 72,
+      "task": "Create a 'renewal ritual' for Monday mornings to start fresh after weekends.",
+      "category": "weekly_renewal"
+    },
+    {
+      "id": 73,
+      "task": "Use the 'emotional archaeology' - dig deep to understand your triggers.",
+      "category": "self_awareness"
+    },
+    {
+      "id": 74,
+      "task": "Practice sending love to your own stressed nervous system during overwhelming shifts.",
+      "category": "nervous_system_care"
+    },
+    {
+      "id": 75,
+      "task": "Keep a 'wisdom whispers' journal of intuitive insights that helped patient care.",
+      "category": "intuition_development"
+    },
+    {
+      "id": 76,
+      "task": "Use the 'emotional maintenance' approach - regular check-ins like equipment checks.",
+      "category": "emotional_maintenance"
+    },
+    {
+      "id": 77,
+      "task": "Practice the 'healing circle' visualization - surround yourself with protective energy.",
+      "category": "energy_protection"
+    },
+    {
+      "id": 78,
+      "task": "Create a 'comfort word' to silently repeat during procedures or stressful moments.",
+      "category": "comfort_mantra"
+    },
+    {
+      "id": 79,
+      "task": "Use the 'emotional triage' system - prioritize which feelings need immediate attention.",
+      "category": "emotional_triage"
+    },
+    {
+      "id": 80,
+      "task": "Practice gratitude for your ability to be present during others' most vulnerable moments.",
+      "category": "privilege_awareness"
+    },
+    {
+      "id": 81,
+      "task": "Keep a 'growth journal' of professional development from challenging cases.",
+      "category": "growth_mindset"
+    },
+    {
+      "id": 82,
+      "task": "Use the 'emotional ventilation' technique - healthy expression of difficult feelings.",
+      "category": "emotional_expression"
+    },
+    {
+      "id": 83,
+      "task": "Practice the 'sacred witness' role - honor the privilege of being present for suffering.",
+      "category": "sacred_witnessing"
+    },
+    {
+      "id": 84,
+      "task": "Create a 'hope anchor' - a reminder of healing and recovery to hold onto.",
+      "category": "hope_anchoring"
+    },
+    {
+      "id": 85,
+      "task": "Use the 'emotional reset button' - brief meditation to return to center.",
+      "category": "centering_practice"
+    },
+    {
+      "id": 86,
+      "task": "Practice loving-kindness for patients' families during their most difficult moments.",
+      "category": "family_compassion"
+    },
+    {
+      "id": 87,
+      "task": "Keep a 'calling reminder' list of reasons you were drawn to healthcare.",
+      "category": "calling_connection"
+    },
+    {
+      "id": 88,
+      "task": "Use the 'emotional weather system' - predict and prepare for emotional storms.",
+      "category": "emotional_forecasting"
+    },
+    {
+      "id": 89,
+      "task": "Practice the 'healing intention' meditation before starting each shift.",
+      "category": "intention_setting"
+    },
+    {
+      "id": 90,
+      "task": "Create a 'blessing practice' for difficult patients who challenge your compassion.",
+      "category": "compassion_expansion"
+    },
+    {
+      "id": 91,
+      "task": "Use the 'emotional first responder' skills on yourself during crises.",
+      "category": "self_rescue"
+    },
+    {
+      "id": 92,
+      "task": "Practice gratitude for your body's ability to endure long shifts and physical demands.",
+      "category": "physical_gratitude"
+    },
+    {
+      "id": 93,
+      "task": "Keep a 'light collection' of moments when you brought joy or comfort to patients.",
+      "category": "light_cultivation"
+    },
+    {
+      "id": 94,
+      "task": "Use the 'emotional acupuncture' technique - targeted pressure on specific stress points.",
+      "category": "stress_point_release"
+    },
+    {
+      "id": 95,
+      "task": "Practice the 'healing presence' visualization before entering patients' rooms.",
+      "category": "presence_preparation"
+    },
+    {
+      "id": 96,
+      "task": "Create a 'spirit restoration' ritual for after witnessing trauma or death.",
+      "category": "spirit_healing"
+    },
+    {
+      "id": 97,
+      "task": "Use the 'emotional inventory' system - regularly assess and address emotional needs.",
+      "category": "emotional_assessment"
+    },
+    {
+      "id": 98,
+      "task": "Practice sending silent gratitude to patients for trusting you with their care.",
+      "category": "patient_gratitude"
+    },
+    {
+      "id": 99,
+      "task": "Keep a 'transformation journal' of how difficult cases changed you for the better.",
+      "category": "transformation_tracking"
+    },
+    {
+      "id": 100,
+      "task": "Use the 'emotional defibrillator' - emergency techniques to restart your heart connection.",
+      "category": "heart_revival"
+    },
+    {
+      "id": 101,
+      "task": "Practice the 'healing flow' meditation - become a channel for healing energy.",
+      "category": "healing_channel"
+    },
+    {
+      "id": 102,
+      "task": "Create a 'courage bank' - deposit brave moments to withdraw from during fear.",
+      "category": "courage_banking"
+    },
+    {
+      "id": 103,
+      "task": "Use the 'emotional archaeology' to uncover the source of recurring stress patterns.",
+      "category": "pattern_recognition"
+    },
+    {
+      "id": 104,
+      "task": "Practice loving-kindness for your own mistakes and limitations as a healthcare provider.",
+      "category": "self_acceptance"
+    },
+    {
+      "id": 105,
+      "task": "Keep a 'sacred moments' collection of times you felt truly connected to your calling.",
+      "category": "sacred_connection"
+    },
+    {
+      "id": 106,
+      "task": "Use the 'emotional GPS' to navigate back to compassion when lost in frustration.",
+      "category": "compassion_navigation"
+    },
+    {
+      "id": 107,
+      "task": "Practice the 'healing breath' - intentional breathing to calm patients through your presence.",
+      "category": "calming_presence"
+    },
+    {
+      "id": 108,
+      "task": "Create a 'renewal ceremony' for the end of particularly challenging or traumatic shifts.",
+      "category": "trauma_recovery"
+    },
+    {
+      "id": 109,
+      "task": "Use the 'emotional wisdom' gained from difficult cases to mentor newer colleagues.",
+      "category": "wisdom_sharing"
+    },
+    {
+      "id": 110,
+      "task": "Practice gratitude for the opportunity to be present during life's most profound moments.",
+      "category": "profound_gratitude"
+    },
+    {
+      "id": 111,
+      "task": "Keep a 'healing legacy' journal of the positive impact you've made on patients' lives.",
+      "category": "legacy_building"
+    },
+    {
+      "id": 112,
+      "task": "Use the 'emotional sunrise' technique - start each shift with fresh emotional energy.",
+      "category": "fresh_start"
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+/* Modern CSS Reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Root theme variables with modern color palette */
+:root {
+  /* Primary Colors */
+  --primary: #667eea;
+  --primary-dark: #5a67d8;
+  --primary-light: #7c3aed;
+  --accent: #f093fb;
+  --accent-secondary: #f9ca24;
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --gradient-background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-card: linear-gradient(145deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+  /* Backgrounds */
+  --bg-primary: #667eea;
+  --bg-secondary: #f8fafc;
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --card-bg-solid: #ffffff;
+  --card-bg-glass: rgba(255, 255, 255, 0.25);
+  /* Borders & Shadows */
+  --border-radius: 20px;
+  --border-radius-sm: 12px;
+  --border-radius-lg: 28px;
+  --card-border: rgba(255, 255, 255, 0.2);
+  --shadow-sm: 0 2px 10px rgba(102, 126, 234, 0.1);
+  --shadow-md: 0 8px 25px rgba(102, 126, 234, 0.15);
+  --shadow-lg: 0 20px 40px rgba(102, 126, 234, 0.2);
+  --shadow-glass: 0 8px 32px rgba(31, 38, 135, 0.37);
+  /* Typography */
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+  --text-muted: #718096;
+  --text-white: #ffffff;
+  /* Form Elements */
+  --input-bg: rgba(255, 255, 255, 0.9);
+  --input-border: rgba(102, 126, 234, 0.2);
+  --input-border-focus: #667eea;
+  /* Buttons */
+  --button-primary: var(--gradient-primary);
+  --button-secondary: var(--gradient-accent);
+  --button-text: #ffffff;
+  /* Status Colors */
+  --success: #48bb78;
+  --warning: #ed8936;
+  --error: #f56565;
+  --info: #4299e1;
+  /* Todo Colors */
+  --todo-complete: #c6f6d5;
+  --todo-incomplete: #fed7d7;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gradient-background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+    --bg-secondary: #1a202c;
+    --card-bg: rgba(45, 55, 72, 0.95);
+    --card-bg-solid: #2d3748;
+    --card-bg-glass: rgba(45, 55, 72, 0.25);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --text-primary: #f7fafc;
+    --text-secondary: #e2e8f0;
+    --text-muted: #a0aec0;
+    --input-bg: rgba(45, 55, 72, 0.9);
+    --input-border: rgba(255, 255, 255, 0.1);
+    --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 8px 25px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.5);
+    --todo-complete: #2d7d32;
+    --todo-incomplete: #d32f2f;
+  }
+}
+
+html, body {
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  background: #ffffff;
+  color: #1a202c;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  min-height: 600px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 600px;
+  padding: 16px;
+  background: #ffffff;
+  box-sizing: border-box;
+  position: relative;
+}
+.logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  align-self: center;
+}
+h1 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+  margin-top: 40px;
+  color: #1a202c;
+  font-weight: 600;
+  text-align: center;
+}
+p {
+  font-size: 0.9em;
+  color: #4a5568;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Header area for user info and points */
+.header-info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: var(--shadow-sm);
+  border-radius: 8px;
+}
+.user-greeting {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #1a202c;
+  margin-right: 8px;
+}
+.points-display {
+  font-size: 0.9em;
+  color: #4a5568;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 4px 10px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.points-display .points-value {
+  font-weight: 600;
+  color: #667eea;
+}
+button {
+  background: var(--button-primary);
+  color: var(--button-text);
+  border: none;
+  border-radius: var(--border-radius-sm);
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+button:hover, button:focus {
+  background: var(--button-secondary);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+#questionsContainer {
+  width: 100%;
+  text-align: center;
+}
+form label {
+  display: block;
+  margin: 10px 0;
+}
+.dashboard-container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dashboard-container > div {
+  background: transparent;
+  margin-bottom: 20px;
+  padding: 0;
+  color: var(--text-primary);
+}
+.dashboard-container h3 {
+  font-size: 1.1em;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.dashboard-container p {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+.todo-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.todo-inputs input[type="text"], .todo-inputs select {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: var(--border-radius-sm);
+  border: 1px solid var(--input-border);
+  background: var(--input-bg);
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+.todo-inputs input[type="text"]:focus, .todo-inputs select:focus {
+  border-color: var(--input-border-focus);
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.2);
+}
+#popupAddTodoBtn {
+  padding: 8px 16px;
+  background: var(--button-secondary);
+  color: var(--button-text);
+}
+.todo-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: var(--card-bg);
+  border-radius: var(--border-radius-sm);
+  margin-bottom: 8px;
+  padding: 12px;
+  box-shadow: var(--shadow-sm);
+}
+.todo-item .desc {
+  font-size: 0.9em;
+  font-weight: 500;
+}
+.todo-item .deadline {
+  font-size: 0.8em;
+  color: var(--text-secondary);
+}
+.todo-item .actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.todo-item button {
+  padding: 4px 8px;
+  font-size: 0.8em;
+  margin: 0;
+}
+.todo-item.completed {
+  background: var(--todo-complete);
+  color: var(--text-muted);
+}
+.breathing-text {
+  font-size: 1em;
+  margin-top: 8px;
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+/* Feature Cards in Popup */
+.feature-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.feature-card:hover {
+  background: #f1f5f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature-card h3 {
+  font-size: 1.1em;
+  margin-bottom: 12px;
+  color: #1a202c;
+  font-weight: 600;
+}
+.feature-card p {
+  color: #4a5568;
+  font-size: 0.9em;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+/* Navigation in Popup */
+.feature-nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin: 24px 0;
+  padding: 20px;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+.feature-nav-btn {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  min-height: 85px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.feature-nav-btn:hover {
+  background: #f8fafc;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.feature-svg-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  background: #667eea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: white;
+}
+.feature-label {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #1a202c;
+  text-align: center;
+  line-height: 1.3;
+}
+
+/* Welcome/Status Card */
+.welcome-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(102, 126, 234, 0.3);
+}
+.welcome-card h2 {
+  font-size: 1.2em;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+.welcome-card p {
+  font-size: 0.9em;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
+
+/* Quick Stats */
+.quick-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.stat-item {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px 8px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.stat-number {
+  font-size: 1.4em;
+  font-weight: 700;
+  color: #667eea;
+  display: block;
+}
+.stat-label {
+  font-size: 0.7em;
+  color: #64748b;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* Microtask cards in popup */
+.microtask-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 16px;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.microtask-card:hover {
+  background: #f1f5f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.microtask-card h3 {
+  font-size: 1.1em;
+  margin-bottom: 12px;
+  color: #1a202c;
+  font-weight: 600;
+}
+
+/* Form elements */
+input, textarea, select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: white;
+  color: var(--text-primary);
+  font-size: 0.9em;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+input:focus, textarea:focus, select:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+/* Responsive adjustments for popup */
+@media (max-width: 400px) {
+  html, body {
+    width: 350px;
+  }
+  .popup-container {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 1.3em;
+  }
+  .dashboard-container {
+    padding: 12px;
+  }
+  .todo-inputs {
+    gap: 6px;
+  }
+}

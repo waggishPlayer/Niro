@@ -1,0 +1,576 @@
+{
+    "title": "Software Engineer Wellness Tasks",
+    "description": "These are based on work hours, break habits, project stress, and health concerns like eye strain.",
+    "total_tasks": 112,
+    "tasks": [
+      {
+        "id": 1,
+        "task": "Take a 10-minute screen-free walk after every 2 hours of coding.",
+        "category": "physical_activity"
+      },
+      {
+        "id": 2,
+        "task": "Use the 20-20-20 rule: every 20 minutes, look 20 feet away for 20 seconds.",
+        "category": "eye_care"
+      },
+      {
+        "id": 3,
+        "task": "Do wrist stretches every 3 hours to reduce strain.",
+        "category": "physical_health"
+      },
+      {
+        "id": 4,
+        "task": "Switch to a blue-light filter after 7 PM.",
+        "category": "eye_care"
+      },
+      {
+        "id": 5,
+        "task": "Practice mindful breathing for 5 minutes at your desk.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 6,
+        "task": "Write a gratitude log for things that went well at work.",
+        "category": "mental_health"
+      },
+      {
+        "id": 7,
+        "task": "Use noise-canceling headphones to boost focus.",
+        "category": "productivity"
+      },
+      {
+        "id": 8,
+        "task": "Set a Slack \"do not disturb\" window daily.",
+        "category": "productivity"
+      },
+      {
+        "id": 9,
+        "task": "Take a mental health day every 2 weeks.",
+        "category": "mental_health"
+      },
+      {
+        "id": 10,
+        "task": "Try Pomodoro: 25 mins work, 5 mins break.",
+        "category": "productivity"
+      },
+      {
+        "id": 11,
+        "task": "Watch a motivational tech talk.",
+        "category": "inspiration"
+      },
+      {
+        "id": 12,
+        "task": "Attend a virtual dev meet-up to feel connected.",
+        "category": "social_connection"
+      },
+      {
+        "id": 13,
+        "task": "Journal one thing that stressed you at work.",
+        "category": "mental_health"
+      },
+      {
+        "id": 14,
+        "task": "Avoid caffeine after 6 PM.",
+        "category": "sleep_hygiene"
+      },
+      {
+        "id": 15,
+        "task": "Write an email to your future self.",
+        "category": "reflection"
+      },
+      {
+        "id": 16,
+        "task": "Take a 15-minute walk without headphones.",
+        "category": "physical_activity"
+      },
+      {
+        "id": 17,
+        "task": "Set up an ergonomic workspace.",
+        "category": "workspace_optimization"
+      },
+      {
+        "id": 18,
+        "task": "Declutter your desktop and workspace.",
+        "category": "workspace_optimization"
+      },
+      {
+        "id": 19,
+        "task": "Use a to-do list for personal, not just work.",
+        "category": "organization"
+      },
+      {
+        "id": 20,
+        "task": "Replace late-night coding with reading.",
+        "category": "sleep_hygiene"
+      },
+      {
+        "id": 21,
+        "task": "Meditate using a focus-specific app.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 22,
+        "task": "Try a \"no screen\" hour post-work.",
+        "category": "digital_detox"
+      },
+      {
+        "id": 23,
+        "task": "Do 15 push-ups during breaks.",
+        "category": "physical_activity"
+      },
+      {
+        "id": 24,
+        "task": "Drink 2 liters of water before 5 PM.",
+        "category": "hydration"
+      },
+      {
+        "id": 25,
+        "task": "Watch a short comedy skit after coding.",
+        "category": "stress_relief"
+      },
+      {
+        "id": 26,
+        "task": "Get sunlight before 10 AM.",
+        "category": "physical_health"
+      },
+      {
+        "id": 27,
+        "task": "Rearrange your room layout.",
+        "category": "environment"
+      },
+      {
+        "id": 28,
+        "task": "Schedule a weekly walk with a friend.",
+        "category": "social_connection"
+      },
+      {
+        "id": 29,
+        "task": "Use sticky notes for positive affirmations.",
+        "category": "mental_health"
+      },
+      {
+        "id": 30,
+        "task": "Cook one meal from scratch.",
+        "category": "self_care"
+      },
+      {
+        "id": 31,
+        "task": "Plan a weekend without tech.",
+        "category": "digital_detox"
+      },
+      {
+        "id": 32,
+        "task": "Say no to one unnecessary task.",
+        "category": "boundaries"
+      },
+      {
+        "id": 33,
+        "task": "Decline 1 non-urgent meeting.",
+        "category": "boundaries"
+      },
+      {
+        "id": 34,
+        "task": "Try guided visualization before bed.",
+        "category": "sleep_hygiene"
+      },
+      {
+        "id": 35,
+        "task": "Make a \"done\" list instead of a to-do.",
+        "category": "mental_health"
+      },
+      {
+        "id": 36,
+        "task": "Set a phone screen-time limit.",
+        "category": "digital_detox"
+      },
+      {
+        "id": 37,
+        "task": "Create a post-work shutdown ritual.",
+        "category": "work_life_balance"
+      },
+      {
+        "id": 38,
+        "task": "Use soft instrumental music during coding.",
+        "category": "productivity"
+      },
+      {
+        "id": 39,
+        "task": "Practice a 1-minute body scan meditation.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 40,
+        "task": "Try digital sketching or doodling.",
+        "category": "creativity"
+      },
+      {
+        "id": 41,
+        "task": "Add a plant to your workspace.",
+        "category": "workspace_optimization"
+      },
+      {
+        "id": 42,
+        "task": "Write one blog post about burnout.",
+        "category": "reflection"
+      },
+      {
+        "id": 43,
+        "task": "Learn a calming keyboard shortcut (e.g., F11 for fullscreen focus).",
+        "category": "productivity"
+      },
+      {
+        "id": 44,
+        "task": "Speak kindly to yourself for 60 seconds.",
+        "category": "self_compassion"
+      },
+      {
+        "id": 45,
+        "task": "Practice smiling intentionally.",
+        "category": "mood_improvement"
+      },
+      {
+        "id": 46,
+        "task": "Schedule a therapy consultation.",
+        "category": "mental_health"
+      },
+      {
+        "id": 47,
+        "task": "Compliment a co-worker.",
+        "category": "social_connection"
+      },
+      {
+        "id": 48,
+        "task": "Reflect on one thing you love about your job.",
+        "category": "gratitude"
+      },
+      {
+        "id": 49,
+        "task": "Create a 3-item \"minimum viable day\" checklist.",
+        "category": "productivity"
+      },
+      {
+        "id": 50,
+        "task": "Use an app to track your mood.",
+        "category": "mental_health"
+      },
+      {
+        "id": 51,
+        "task": "Try a sleep tracker app.",
+        "category": "sleep_hygiene"
+      },
+      {
+        "id": 52,
+        "task": "Replace \"I have to\" with \"I choose to.\"",
+        "category": "mindset"
+      },
+      {
+        "id": 53,
+        "task": "Avoid back-to-back meetings for a day.",
+        "category": "boundaries"
+      },
+      {
+        "id": 54,
+        "task": "Schedule a 3-hour creative break this weekend.",
+        "category": "creativity"
+      },
+      {
+        "id": 55,
+        "task": "Read a poem aloud.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 56,
+        "task": "Stretch your back with yoga videos.",
+        "category": "physical_health"
+      },
+      {
+        "id": 57,
+        "task": "Turn off push notifications.",
+        "category": "digital_detox"
+      },
+      {
+        "id": 58,
+        "task": "Send a thank-you message to a mentor.",
+        "category": "gratitude"
+      },
+      {
+        "id": 59,
+        "task": "Sit on your balcony without tech.",
+        "category": "digital_detox"
+      },
+      {
+        "id": 60,
+        "task": "Learn one productivity technique.",
+        "category": "productivity"
+      },
+      {
+        "id": 61,
+        "task": "Make your bed before work.",
+        "category": "routine"
+      },
+      {
+        "id": 62,
+        "task": "Try an \"afternoon tea\" ritual.",
+        "category": "routine"
+      },
+      {
+        "id": 63,
+        "task": "Say no to guilt-driven overwork.",
+        "category": "boundaries"
+      },
+      {
+        "id": 64,
+        "task": "Do a brain dump journal entry.",
+        "category": "mental_health"
+      },
+      {
+        "id": 65,
+        "task": "Swap your chair for a yoga ball.",
+        "category": "physical_health"
+      },
+      {
+        "id": 66,
+        "task": "Work while standing for 30 mins.",
+        "category": "physical_health"
+      },
+      {
+        "id": 67,
+        "task": "Ask for help on one task.",
+        "category": "collaboration"
+      },
+      {
+        "id": 68,
+        "task": "Create a playlist called \"calm code.\"",
+        "category": "productivity"
+      },
+      {
+        "id": 69,
+        "task": "Stretch neck and shoulders at lunch.",
+        "category": "physical_health"
+      },
+      {
+        "id": 70,
+        "task": "Leave work on time.",
+        "category": "work_life_balance"
+      },
+      {
+        "id": 71,
+        "task": "Compliment your code once.",
+        "category": "self_compassion"
+      },
+      {
+        "id": 72,
+        "task": "Write a funny commit message.",
+        "category": "humor"
+      },
+      {
+        "id": 73,
+        "task": "Watch a short nature documentary.",
+        "category": "relaxation"
+      },
+      {
+        "id": 74,
+        "task": "Write a joke in your team chat.",
+        "category": "humor"
+      },
+      {
+        "id": 75,
+        "task": "Try minimalism in your file structure.",
+        "category": "organization"
+      },
+      {
+        "id": 76,
+        "task": "Rename folders for clarity.",
+        "category": "organization"
+      },
+      {
+        "id": 77,
+        "task": "Set a positive Slack status.",
+        "category": "mood_improvement"
+      },
+      {
+        "id": 78,
+        "task": "Change your desktop wallpaper to something peaceful.",
+        "category": "environment"
+      },
+      {
+        "id": 79,
+        "task": "Color-code your calendar with calm colors.",
+        "category": "organization"
+      },
+      {
+        "id": 80,
+        "task": "Write 3 things you're proud of this week.",
+        "category": "gratitude"
+      },
+      {
+        "id": 81,
+        "task": "Identify your top 3 stress triggers.",
+        "category": "self_awareness"
+      },
+      {
+        "id": 82,
+        "task": "Unsubscribe from 5 useless emails.",
+        "category": "digital_declutter"
+      },
+      {
+        "id": 83,
+        "task": "Forgive yourself for a mistake.",
+        "category": "self_compassion"
+      },
+      {
+        "id": 84,
+        "task": "Avoid work talk post 8 PM.",
+        "category": "work_life_balance"
+      },
+      {
+        "id": 85,
+        "task": "Share your stress level anonymously.",
+        "category": "mental_health"
+      },
+      {
+        "id": 86,
+        "task": "Watch an inspiring documentary.",
+        "category": "inspiration"
+      },
+      {
+        "id": 87,
+        "task": "Join a community of fellow devs.",
+        "category": "social_connection"
+      },
+      {
+        "id": 88,
+        "task": "Celebrate 1 small win.",
+        "category": "gratitude"
+      },
+      {
+        "id": 89,
+        "task": "Create a music playlist for deep focus.",
+        "category": "productivity"
+      },
+      {
+        "id": 90,
+        "task": "Make a comic strip about your bug.",
+        "category": "humor"
+      },
+      {
+        "id": 91,
+        "task": "Buy blue-light blocking glasses.",
+        "category": "eye_care"
+      },
+      {
+        "id": 92,
+        "task": "Spend a Sunday off-screen.",
+        "category": "digital_detox"
+      },
+      {
+        "id": 93,
+        "task": "Organize your code snippets.",
+        "category": "organization"
+      },
+      {
+        "id": 94,
+        "task": "Learn one mental health fact.",
+        "category": "education"
+      },
+      {
+        "id": 95,
+        "task": "Paint or draw something with your hands.",
+        "category": "creativity"
+      },
+      {
+        "id": 96,
+        "task": "Give a name to your stress monster.",
+        "category": "mental_health"
+      },
+      {
+        "id": 97,
+        "task": "Try a desk dance.",
+        "category": "physical_activity"
+      },
+      {
+        "id": 98,
+        "task": "Drink green tea instead of coffee.",
+        "category": "nutrition"
+      },
+      {
+        "id": 99,
+        "task": "Rearrange one app on your phone.",
+        "category": "digital_organization"
+      },
+      {
+        "id": 100,
+        "task": "Leave one Slack group.",
+        "category": "digital_declutter"
+      },
+      {
+        "id": 101,
+        "task": "Draw your ideal workday.",
+        "category": "visualization"
+      },
+      {
+        "id": 102,
+        "task": "Say \"I'm doing my best\" out loud.",
+        "category": "self_compassion"
+      },
+      {
+        "id": 103,
+        "task": "Write your own self-care manifesto.",
+        "category": "reflection"
+      },
+      {
+        "id": 104,
+        "task": "Try 5-5-5 breathing.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 105,
+        "task": "Do a 3-minute gratitude meditation.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 106,
+        "task": "Visualize your stress leaving your body.",
+        "category": "visualization"
+      },
+      {
+        "id": 107,
+        "task": "Take a photo of something beautiful.",
+        "category": "mindfulness"
+      },
+      {
+        "id": 108,
+        "task": "Laugh intentionally.",
+        "category": "mood_improvement"
+      },
+      {
+        "id": 109,
+        "task": "Water your houseplant.",
+        "category": "routine"
+      },
+      {
+        "id": 110,
+        "task": "Read one comic book.",
+        "category": "relaxation"
+      },
+      {
+        "id": 111,
+        "task": "Write code in a new theme.",
+        "category": "environment"
+      },
+      {
+        "id": 112,
+        "task": "Clean your keyboard mindfully.",
+        "category": "mindfulness"
+      }
+    ],
+    "permissions": ["storage", "tabs", "notifications", "alarms"],
+    "quotes": [
+      "Code is like humor. When you have to explain it, it's bad.",
+      "First, solve the problem. Then, write the code.",
+      "Experience is the name everyone gives to their mistakes.",
+      "In order to be irreplaceable, one must always be different.",
+      "Simplicity is the soul of efficiency.",
+      "Before software can be reusable it first has to be usable."
+    ]
+  }
