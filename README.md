@@ -45,7 +45,7 @@ It combines onboarding-based personalization, mood tracking, micro wellness acti
 ## Usage Notes
 
 - Complete onboarding once; data is saved in browser storage.
-- To-do and mood data are persisted with `chrome.storage.local` / `localStorage`.
+- The extension uses both storage layers: `chrome.storage.local` (shared extension data such as todos/mood cache) and `localStorage` (UI/session-oriented state such as onboarding, points, streaks, and journal entries).
 - New tab page behavior is available when this extension’s new tab override is active.
 
 ## Tech Stack
