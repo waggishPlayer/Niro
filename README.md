@@ -39,8 +39,7 @@ It combines onboarding-based personalization, mood tracking, micro wellness acti
 1. Open Chrome and go to `chrome://extensions/`.
 2. Enable **Developer mode**.
 3. Click **Load unpacked**.
-4. Select the folder:
-   `/home/runner/work/Niro/Niro`
+4. Select this project’s root folder (the folder containing `manifest.json`).
 5. Open the extension popup to start onboarding.
 
 ## Usage Notes
